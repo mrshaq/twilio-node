@@ -33,6 +33,8 @@ declare namespace twilio {
       util: typeof util;
     };
   }
+  export const Twilio: TwilioClient;
+
   export const jwt: JwtInterface;
   export const twiml: TwimlInterface;
   export const validateRequest: typeof webhookTools.validateRequest;
